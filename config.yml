@@ -1,0 +1,50 @@
+#################################################
+#                   BoxReparar                  #
+#               Plugin by: Stompado             #
+#            Plugin exclusivo da BoxStore       #
+#               © Copyright BoxStore            #
+#################################################
+
+#Prefixo das mensagens
+Prefixo: '&e&lREPARAR &8»'
+
+#Mensagens Gerais
+SemItemNaMao: '@prefixo &cVocê não possui um item para reparar.'
+DurabilidadeMaxima: '@prefixo &cEsse item está com a durabilidade máxima.'
+SemDinheiro: '@prefixo &cVocê não possui &a{custo} &cde dinheiro para reparar.'
+
+ItemReparado: '@prefixo &aO item foi reparado com sucesso.'
+ReparacaoCancelada: '@prefixo &cVocê cancelou a reparação.'
+
+#Custo para a reparação
+Custo: 1000
+
+#Configuração do Menu
+Menu:
+  Nome: '&7Loja de reparacoes'
+  Itens:
+    Confirmar:
+      Nome: '&a&lCONFIRMAR'
+      Slot: 10
+      Material: 'WOOL:5' #Nome do Item e ID
+      Lore:
+        - ''
+        - '&7Clique para confirmar o conserto do item.'
+        - '&7Custo: &a{custo}'
+        - ''
+    Informacoes:
+      Nome: '&7&lINFORMACOES'
+      Material: 'BOOK:0'
+      Slot: 13
+      Lore:
+        - ''
+        - '&7Menu de reparaco de itens'
+        - '&7Certifique-se de ter o &adinheiro &7necessário.'
+        - ''
+    Cancelar:
+      Nome: '&c&lCANCELAR'
+      Slot: 16
+      Material: 'WOOL:14'
+      Lore:
+        - ''
+        - '&7Clique para cancelar o conserto do item.'

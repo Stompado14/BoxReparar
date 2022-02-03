@@ -1,0 +1,8 @@
+name: BoxReparar
+version: 1.0.0
+depend: [Vault]
+author: Stompado
+main: me.reparar.BoxReparar
+commands:
+  reparar:
+    aliases: [repair]
